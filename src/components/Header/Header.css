@@ -1,0 +1,33 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  background: #526d82;
+  height: 70px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+}
+
+.container h2 {
+  color: white;
+}
+
+.container button {
+  position: absolute;
+  right: 30px;
+  background: transparent;
+  border: none;
+  cursor: pointer;
+  color: white;
+}
